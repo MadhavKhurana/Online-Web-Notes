@@ -1,0 +1,58 @@
+.navbar{
+	background-color: mediumslateblue;   
+}
+#white{
+    color: white;
+    font-size: 20px;
+}
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url(images/note-papier2.png);
+    position: relative;
+    top: -25px;
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#active{
+    background-color: blueviolet;
+   color: white;
+    font-size: 20px;    
+}
+.panel-footer{
+    position: relative;
+    margin-top: -25px;  
+    background-color: mediumslateblue;
+    color: white;
+    font-size: 20px;
+    
+}
+#center{
+    position: relative;
+    top: 230px;
+}
+/*
+table{
+    border: 38px solid black;
+}
+*/
+.table,tr,tbody{
+    border: 3px solid #f513ed;
+}
+.td{
+    border: 3px solid black;
+    cursor: pointer;
+}
+#settings{
+    font-family:serif;
+         font-size: 30px;
+}

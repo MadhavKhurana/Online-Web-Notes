@@ -1,0 +1,116 @@
+.navbar{
+	background-color: mediumslateblue;
+    
+}
+#white{
+    color: white;
+    font-size: 20px;
+}
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url(images/note-papier2.png);
+    position: relative;
+    top: -25px;
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#active{
+    background-color: blueviolet;
+   
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: cursive;
+    position: relative;
+    top: 150px;
+}
+#enotes{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: 200px;
+    font-family: monospace;
+   
+}
+#enotess{
+    position: relative;
+    top: 15px;
+}
+.panel-footer{
+    position: relative;
+    margin-top: -25px;  
+    background-color: mediumslateblue;
+    color: white;
+    font-size: 20px;
+    
+}
+.jumbotron{
+    background-color: white;
+    position: absolute;
+    width: 80%; 
+    z-index: 1;
+    height: auto;
+    top: 5px;
+    left: 50px;
+    box-shadow: 0 0 20px #000
+}
+
+.form-control{
+    width: 97%; 
+    margin-bottom: 20px;
+}
+.container-fluid{
+    position: relative;
+    z-index: 0;
+}
+.btn.btn-link.btn-lg{
+    color: black;
+    position: relative;
+    top: -35px;
+}
+#jumtext{
+    text-align: left;
+    margin-left: 15px;
+    position: relative;
+    top: -30px;
+    font-size: 25px;
+    font-family: serif;
+}
+.alert.alert-danger{
+    position: relative;
+}
+.alert.alert-success{
+    
+    font-family: monospace; 
+}
+#forget{
+    position: relative;
+    right: 20px;
+    
+}
+#rememberme{
+    position: relative;
+}
+#resettext{
+    position: relative;
+    top: 30px;
+}
+#newpassform{
+    position: relative;
+    top: 60px;
+}
+#newpasstext{
+    font-family: cursive;
+    font-size: 20px;
+}
